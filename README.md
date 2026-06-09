@@ -5,7 +5,7 @@ Periodic TryHackMe stats collector (profile, weekly league, leaderboard) with Di
 ## Installation
 
 ```bash
-git clone <repo>
+git clone Elyasuuuuu/tryhackme-stats-tracker
 cd tryhackme-stats-tracker
 pip install -r requirements.txt
 playwright install chromium
