@@ -2,15 +2,21 @@
 
 Periodic TryHackMe stats collector (profile, weekly league, leaderboard) with Discord notifications.
 
+
 ## Installation
+
+On modern Linux (Kali, Debian, Ubuntu…), system Python is **externally managed** — `pip install` without a venv is blocked on purpose. Use a virtual environment:
 
 ```bash
 gh repo clone Elyasuuuuu/tryhackme-stats-tracker
 cd tryhackme-stats-tracker
+python3 -m venv .venv
+source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 playwright install chromium
 cp .env.example .env
 ```
+
 
 ## Configuration (`.env`)
 
